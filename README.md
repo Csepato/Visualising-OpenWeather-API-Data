@@ -1,14 +1,15 @@
-# Web Design Homework - Web Visualization Dashboard (Latitude)
+# Web Visualization Dashboard
 
-## Latitude - Latitude Analysis Dashboard with Attitude
+## Latitude - Latitude Analysis Dashboard 
 ![Images/landingResize.png](Images/landingResize.png)
-For this homework we'll be creating a visualization dashboard website using visualizations we've created in a past assignment. Specifically, we'll be plotting 'WeatherPy'.
 
-In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
+The purpose of this project was to analyze how weather across 500+ cities across the world changes as you get closer to the equator.
+
+In building this dashboard, I created individual pages for each plot and a means by which I can navigate between them. These pages contain the visualizations and their corresponding explanations. I also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
 ### Website Requirements
 
-The website must consist of 7 pages total, including:
+The website consists of 7 pages in total, including:
 
 * A [landing page](#landing-page) containing:
   * An explanation of the project.
@@ -26,73 +27,72 @@ The website must consist of 7 pages total, including:
     * The table must be a bootstrap table component.
     * The data must come from exporting the `.csv` file as HTML, or converting it to HTML. Try using a tool you already know, pandas. Pandas has a nifty method approprately called `to_html` that allows you to generate a HTML table from a pandas dataframe. See the documentation [here](https://pandas.pydata.org/pandas-docs/version/0.17.0/generated/pandas.DataFrame.to_html.html)
 
-The website must, at the top of every page, have a navigation menu that:
+The website at the top of every page, have a navigation menu that:
 
 * Has the name of the site on the left of the nav which allows users to return to the landing page from any page.
 * Contains a dropdown on the right of the navbar named "Plots" which provides links to each individual visualization page.
 * Provides two more links on the right: "Comparisons" which links to the comparisons page, and "Data" which links to the data page.
 * Is responsive (using media queries).
 
-Finally, the website must be deployed to GitHub pages.
-
-When finished, submit to BootcampSpot the links to 1) the deployed app and 2) the GitHub repository.
+Finally, the website has been deployed to GitHub pages.
 
 ### Considerations
 
-* You may use the weather_data or choose another dataset. Alternatively, you may use the included [cities dataset](Resources/cities.csv) and pull the images from the [assets folder](Resources/assets).
-* You must use bootstrap. This includes using the bootstrap `navbar` component for the header on every page, the bootstrap table component for the data page, and the bootstrap grid for responsiveness on the comparison page.
-* You must deploy your website to GitHub pages, with the website working on a live, publicly accessible URL as a result.
-* Be sure to use a CSS media query for the navigation menu.
-* Be sure your website works at all window widths/sizes.
-* Feel free to take some liberty in the visual aspects, but keep the core functionality the same.
-
-### Bonuses
-
-* Use a different dataset! The requirements above still hold, but make it your own.
-* Use a bootstrap theme to customize your website. You may use a tool like [Bootswatch](https://bootswatch.com/). Make it look snazzy, give it some attitude. If using this, be sure you also meet all of the requirements listed above.
-* Add extra visualizations! The more comparisons the better, right?
-* Use meaningful glyphicons next to links in the header.
-* Have visualization navigation on every visualizations page with an active state.
+* I had any option to use the weather_data or another dataset. I used the [cities dataset](Resources/cities.csv) and pulled the images from the [assets folder](Resources/assets).
+* I used bootstrap. This includes bootstrap `navbar` component for the header on every page, the bootstrap table component for the data page, and the bootstrap grid for responsiveness on the comparison page.
+* I deployed the website to GitHub pages, with the website working on a live, publicly accessible URL as a result.
+* Used a CSS media query for the navigation menu.
+* Ensured the website works at all window widths/sizes. 
 
 ### Screenshots
 
 #### Landing page
 
 Large screen:
+
 ![Landing page large screen](Images/landing-lg.png)
 
 Small screen:
+
 ![Landing page small screen](Images/landing-sm.png)
 ￼
 
 #### Comparisons page
 
 Large screen:
+
 ![comparison page large screen](Images/comparison-lg.png)
 
 Small screen:
+
 ![comparison page small screen](Images/comparison-sm.png)
 
 #### Data page
 
 Large screen:
+
 ![data page large screen](Images/data-lg.png)
 
 Small screen:
+
 ![data page small screen](Images/data-sm.png)
 
 #### Visualization pages
 
 Large screen:
+
 ![visualize page large screen](Images/visualize-lg.png)
 
 Small screen:
+
 ![visualize page small screen](Images/visualize-sm.png)
 
 #### Navigation menu
 
 Large screen:
+
 ![nav menu large screen](Images/nav-lg.png)
 
 Small screen:
+
 ![nav menu small screen](Images/nav-sm.png)
