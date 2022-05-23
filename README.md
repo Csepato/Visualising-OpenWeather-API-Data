@@ -1,4 +1,4 @@
-# Web Visualization Dashboard
+# Visualising-OpenWeatherMap-API-Data
 
 ![Images/landingResize.png](Images/landingResize.png)
 
