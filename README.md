@@ -1,6 +1,5 @@
 # Web Visualization Dashboard
 
-## Latitude - Latitude Analysis Dashboard 
 ![Images/landingResize.png](Images/landingResize.png)
 
 The purpose of this project was to analyze how weather across 500+ cities across the world changes as you get closer to the equator.
